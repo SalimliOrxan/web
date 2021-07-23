@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6112dfd4-ff8a-4187-8003-28c9b56b349a" name="Default Changelist" comment="" />
+    <list default="true" id="6112dfd4-ff8a-4187-8003-28c9b56b349a" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1vhcxAQFtcFVkjUdVN7z8M83yVb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,10 +24,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -33,6 +40,36 @@
       <option name="presentableId" value="Default" />
       <updated>1627018005397</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1627018166051</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627018166051</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="789" y="324" key="SettingsEditor" timestamp="1627018206388">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state x="789" y="324" key="SettingsEditor/0.25.2560.1326@0.25.2560.1326" timestamp="1627018206388" />
+    <state x="880" y="421" key="Vcs.Push.Dialog.v2" timestamp="1627018503004">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state x="880" y="421" key="Vcs.Push.Dialog.v2/0.25.2560.1326@0.25.2560.1326" timestamp="1627018503004" />
+    <state x="1102" y="580" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1627018498929">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state x="1102" y="580" key="git4idea.remote.GitConfigureRemotesDialog/0.25.2560.1326@0.25.2560.1326" timestamp="1627018498929" />
+    <state x="945" y="327" width="670" height="676" key="search.everywhere.popup" timestamp="1627018719335">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state x="945" y="327" width="670" height="676" key="search.everywhere.popup/0.25.2560.1326@0.25.2560.1326" timestamp="1627018719335" />
   </component>
 </project>
