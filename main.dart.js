@@ -13143,13 +13143,16 @@ _.c=c
 _.d=d
 _.$ti=e},
 K0:function K0(){},
-asF:function(a,b,c){var s,r,q=G.ahM(a).a
-if(q==null)q=K.az(a).cx
-s=q
-r=c
-return new Y.cT(s,r,C.a0)},
-aes:function(){return new Z.IF(null)},
-IF:function IF(a){this.a=a},
+asF:function(a,b,c){var s,r,q
+if(b==null){s=G.ahM(a).a
+if(s==null)s=K.az(a).cx
+r=s}else r=b
+q=c
+return new Y.cT(r,q,C.a0)},
+aes:function(a,b){return new Z.IF(b,a,null)},
+IF:function IF(a,b,c){this.c=a
+this.r=b
+this.a=c},
 Dl:function Dl(a){this.b=a},
 Dk:function Dk(a,b){this.d=a
 this.a=b},
@@ -40199,15 +40202,15 @@ if(J.P(b)!==H.B(s))return!1
 return b instanceof Y.tZ&&J.d(b.a,s.a)&&b.b==s.b&&J.d(b.c,s.c)&&J.d(b.d,s.d)&&J.d(b.e,s.e)}}
 Y.Kd.prototype={}
 Z.IF.prototype={
-K:function(a,b){var s,r,q,p=null,o=G.ahM(b),n=o.b
-if(n==null)n=16
+K:function(a,b){var s,r,q,p=null,o=G.ahM(b),n=this.c,m=n==null?o.b:n
+if(m==null)m=16
 s=o.c
 if(s==null)s=0
 r=o.d
 if(r==null)r=0
 q=o.e
 if(q==null)q=0
-return T.aC(T.ov(M.aO(p,p,C.k,p,p,new S.b5(p,p,new F.dm(C.u,C.u,C.u,Z.asF(b,p,s)),p,p,p,C.r),p,p,new V.fn(0,r,0,q),p,p,p,s),p,p),p,n)}}
+return T.aC(T.ov(M.aO(p,p,C.k,p,p,new S.b5(p,p,new F.dm(C.u,C.u,C.u,Z.asF(b,this.r,s)),p,p,p,C.r),p,p,new V.fn(0,r,0,q),p,p,p,s),p,p),p,m)}}
 G.u0.prototype={
 gt:function(a){var s=this
 return P.Q(s.a,s.b,s.c,s.d,s.e,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a)},
@@ -62739,13 +62742,13 @@ O.pa.prototype={
 K:function(a,b){var s,r=null,q="assets/images/ic_email.svg",p="Starting New Project?",o="Get an estimate for the new project",n="Hire Me!",m="assets/images/ic_handshake.svg",l=b.L(t.w).f,k=K.cS(20),j=$.aox(),i=t.sq,h=H.a([j],i)
 l=l.a.a
 s=t.p
-h=M.aO(r,T.df(H.a([G.cR(q,C.V,30,30),new T.c9(C.zZ,T.aC(Z.aes(),30,r),r),T.mk(T.bG(H.a([L.aJ(p,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,l*0.025,r,C.af,r,r,!0,r,r,r,r,r,r),r,r),T.aC(r,10,r),L.aJ(o,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,l*0.023,r,C.bM,r,r,!0,r,r,r,r,r,r),r,r)],s),C.a3,C.z,C.B),1),new R.oP(m,n,new O.VI(),r)],s),C.z),C.k,r,new S.as(0,1/0,0,1/0),new S.b5(C.j,r,r,k,h,r,C.r),r,r,r,new V.V(10,10,10,10),r,r,r)
+h=M.aO(r,T.df(H.a([G.cR(q,C.V,30,30),new T.c9(C.zZ,T.aC(Z.aes(C.P,1.5),30,r),r),T.mk(T.bG(H.a([L.aJ(p,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,l*0.025,r,C.af,r,r,!0,r,r,r,r,r,r),r,r),T.aC(r,10,r),L.aJ(o,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,l*0.023,r,C.bM,r,r,!0,r,r,r,r,r,r),r,r)],s),C.a3,C.z,C.B),1),new R.oP(m,n,new O.VI(),r)],s),C.z),C.k,r,new S.as(0,1/0,0,1/0),new S.b5(C.j,r,r,k,h,r,C.r),r,r,r,new V.V(10,10,10,10),r,r,r)
 k=K.cS(20)
 l=H.a([j],i)
-l=M.aO(r,T.df(H.a([G.cR(q,C.V,50,50),new T.c9(C.cV,T.aC(Z.aes(),50,r),r),T.mk(T.bG(H.a([L.aJ(p,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,20,r,C.af,r,r,!0,r,r,r,r,r,r),r,r),T.aC(r,10,r),L.aJ(o,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,12,r,C.bM,r,r,!0,r,r,r,r,r,r),r,r)],s),C.a3,C.z,C.B),1),new R.oP(m,n,new O.VJ(),r)],s),C.z),C.k,r,new S.as(0,600,0,1/0),new S.b5(C.j,r,r,k,l,r,C.r),r,r,r,new V.V(20,20,20,20),r,r,r)
+l=M.aO(r,T.df(H.a([G.cR(q,C.V,50,50),new T.c9(C.cV,T.aC(Z.aes(r,r),50,r),r),T.mk(T.bG(H.a([L.aJ(p,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,20,r,C.af,r,r,!0,r,r,r,r,r,r),r,r),T.aC(r,10,r),L.aJ(o,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,12,r,C.bM,r,r,!0,r,r,r,r,r,r),r,r)],s),C.a3,C.z,C.B),1),new R.oP(m,n,new O.VJ(),r)],s),C.z),C.k,r,new S.as(0,600,0,1/0),new S.b5(C.j,r,r,k,l,r,C.r),r,r,r,new V.V(20,20,20,20),r,r,r)
 k=K.cS(20)
 i=H.a([j],i)
-return new M.e8(new T.c9(C.cV,h,r),l,M.aO(r,T.df(H.a([G.cR(q,C.V,80,80),new T.c9(C.cV,T.aC(Z.aes(),80,r),r),T.mk(T.bG(H.a([L.aJ(p,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,42,r,C.af,r,r,!0,r,r,r,r,r,r),r,r),T.aC(r,10,r),L.aJ(o,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,r,r,C.bM,r,r,!0,r,r,r,r,r,r),r,r)],s),C.a3,C.z,C.B),1),new R.oP(m,n,new O.VK(),r)],s),C.z),C.k,r,new S.as(0,1100,0,1/0),new S.b5(C.j,r,r,k,i,r,C.r),r,r,r,new V.V(40,40,40,40),r,r,r),r)}}
+return new M.e8(new T.c9(C.cV,h,r),l,M.aO(r,T.df(H.a([G.cR(q,C.V,80,80),new T.c9(C.cV,T.aC(Z.aes(r,r),80,r),r),T.mk(T.bG(H.a([L.aJ(p,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,42,r,C.af,r,r,!0,r,r,r,r,r,r),r,r),T.aC(r,10,r),L.aJ(o,r,r,r,A.bs(r,r,r,r,r,r,r,r,r,r,r,r,r,C.bM,r,r,!0,r,r,r,r,r,r),r,r)],s),C.a3,C.z,C.B),1),new R.oP(m,n,new O.VK(),r)],s),C.z),C.k,r,new S.as(0,1100,0,1/0),new S.b5(C.j,r,r,k,i,r,C.r),r,r,r,new V.V(40,40,40,40),r,r,r),r)}}
 O.VI.prototype={
 $0:function(){},
 $C:"$0",
