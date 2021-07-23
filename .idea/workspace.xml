@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6112dfd4-ff8a-4187-8003-28c9b56b349a" name="Default Changelist" comment="icon size in services">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6112dfd4-ff8a-4187-8003-28c9b56b349a" name="Default Changelist" comment="vertical divider in hire me card" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627022206463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vertical divider in hire me card">
+      <created>1627023032125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627023032125</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,17 +102,18 @@
     <MESSAGE value="commit" />
     <MESSAGE value="button size in mobile" />
     <MESSAGE value="icon size in services" />
-    <option name="LAST_COMMIT_MESSAGE" value="icon size in services" />
+    <MESSAGE value="vertical divider in hire me card" />
+    <option name="LAST_COMMIT_MESSAGE" value="vertical divider in hire me card" />
   </component>
   <component name="WindowStateProjectService">
     <state x="789" y="324" key="SettingsEditor" timestamp="1627018206388">
       <screen x="0" y="25" width="2560" height="1326" />
     </state>
     <state x="789" y="324" key="SettingsEditor/0.25.2560.1326@0.25.2560.1326" timestamp="1627018206388" />
-    <state x="880" y="421" key="Vcs.Push.Dialog.v2" timestamp="1627022209492">
+    <state x="880" y="421" key="Vcs.Push.Dialog.v2" timestamp="1627023035308">
       <screen x="0" y="25" width="2560" height="1326" />
     </state>
-    <state x="880" y="421" key="Vcs.Push.Dialog.v2/0.25.2560.1326@0.25.2560.1326" timestamp="1627022209492" />
+    <state x="880" y="421" key="Vcs.Push.Dialog.v2/0.25.2560.1326@0.25.2560.1326" timestamp="1627023035308" />
     <state x="1102" y="580" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1627018498929">
       <screen x="0" y="25" width="2560" height="1326" />
     </state>
